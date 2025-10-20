@@ -1,0 +1,58 @@
+.Naglowek{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0e1a4b;
+    font-size: 25px;
+}
+button {
+    background-color: #0e1a4b; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover {
+    background-color: #a31f1f; 
+    color: white;
+    transform: scale(1.05);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #666666;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+main{
+    font-size: 25px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 32px;
+}
+ul {
+  list-style: none;      /* usuwa kropki */
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  text-decoration: none; /* usuwa podkreślenie */
+  color: #0905f7;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+ul li a:hover {
+  color: #ff0000; /* zmiana koloru po najechaniu */
+}
