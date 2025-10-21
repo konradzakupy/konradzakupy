@@ -79,3 +79,32 @@ h1 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+@media (max-width: 768px) {
+      .Przyciski {
+        flex-direction: row; 
+        display: flex;
+        gap: 10px;
+      }
+
+      .Przyciski button {
+        width: 120%;        
+        font-size: 14px;   
+        padding: 10px 0;
+        
+       
+      }
+    }
+@media (max-width: 600px) {
+    .galeria {
+        flex-direction: column; 
+        align-items: center;    
+    }
+
+    .galeria img {
+        width: 90%; 
+        margin-bottom: 20px; 
+    }
+    .specyfikacja, .opis {
+        font-size: 20px;
+    }
+}

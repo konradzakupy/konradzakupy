@@ -79,3 +79,31 @@ h1 {
     font-size: 30px;
     margin-top: 15px;
 } 
+@media (max-width: 768px) {
+      .Przyciski {
+        flex-direction: row; 
+        display: flex;
+        gap: 10px;
+      }
+
+      .Przyciski button {
+        width: 120%;        
+        font-size: 14px;   
+        padding: 10px 0;
+        
+       
+      }
+    }
+@media (max-width: 480px) {
+      .galeria {
+        grid-template-columns: 1fr; 
+      }
+
+      .galeria img {
+        height: auto; 
+      }
+      .specyfikacja, .opis {
+        font-size: 20px;
+      }
+    }    
+    

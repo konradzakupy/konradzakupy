@@ -41,3 +41,55 @@ h1{
     color: #0e1a4b;
     font-size: 60px;
 }
+@media (max-width: 768px) {
+      .Przyciski {
+        flex-direction: row; 
+        display: flex;
+        gap: 10px;
+      }
+
+      .Przyciski button {
+        width: 120%;        
+        font-size: 14px;   
+        padding: 10px 0;
+        
+       
+      }
+    }
+@media (max-width: 480px){
+    .Naglowek{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}    
+@media (max-width: 768px) {
+  .przedmioty,
+  .przedmioty tr,
+  .przedmioty td {
+    display: block;
+    width: 95%;
+    
+  }
+
+  .przedmioty td {
+    border: none;
+    padding: 10px;;
+     border: 3px solid #dddddd;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .obrazek img {
+    width: 20%;
+    
+  }
+
+  .tekst {
+    text-align: center;
+     border: 3px solid #dddddd;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}

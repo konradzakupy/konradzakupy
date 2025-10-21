@@ -44,6 +44,7 @@ nav{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     width: 1000px;
+
     
     
 }
@@ -95,3 +96,51 @@ h1, h2, h3 {
     font-size: 20px;
     margin-top: -30px;
 }
+@media (max-width: 768px) {
+  .zdjecie_p, .zdjecie_d {
+    width: 500px;   /* pomniejszone */
+    height: 300px;
+    font-size: 14px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .zdjecie_p, .zdjecie_d {
+    width: 400px;   /* jeszcze mniejsze */
+    height: 190px;
+    font-size: 12px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .zdjecie_p, .zdjecie_d {
+    width: 200px;   /* najmniejsze */
+    height: 80px;
+    font-size: 7px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 240px) {
+  .zdjecie_p, .zdjecie_d {
+    width: 150px;   /* najmniejsze */
+    height: 80px;
+    font-size: 5px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 768px) {
+      .Przyciski {
+        flex-direction: row; 
+        display: flex;
+        gap: 10px;
+      }
+
+      .Przyciski button {
+        width: 120%;        
+        font-size: 14px;   
+        padding: 10px 0;
+        
+       
+      }
+    }
